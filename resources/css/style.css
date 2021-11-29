@@ -231,10 +231,7 @@ footer{
 
 /*Media queries for responsive design*/
 
-@media only screen and (min-width : 320px) and (max-width : 450px)
-or ((device-width: 375px)
-    and (device-height: 812px)
-    and (-webkit-device-pixel-ratio: 3))  {
+@media only screen and (max-width : 400px)  {
 
 /*Header - Mobile*/
 .desktop {

@@ -131,51 +131,6 @@ header .icon-text{
   max-width:30%;
 }
 
-/*banner button*/
-
-.btn-banner{
-  background-color: #414c5e;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px;
-  box-shadow: 5px 0 20px 0 rgba(0, 0, 0, 0.3);
-  width:300px;
-}
-.btn-banner:hover{
-  background-color: #af7905;
-}
-
-/*information section*/
-
-.information{
-  display: flex;
-}
-
-.info-img{
-  width:100%;
-  height: auto;
-  margin-right: 24px;
-}
-
-.info-main{
-  padding: 32px 24px;
-  border-right: 1px solid #d8d8d8;
-  width:60%;
-}
-
-.info-content h1{
-  margin-top:32px;
-}
-.info-content h5{
-  margin-top:32px;
-}
 
 
 /*course section*/
@@ -231,7 +186,7 @@ footer{
 
 /*Media queries for responsive design*/
 
-@media only screen and (max-width : 400px)  {
+@media only screen and (max-width:480px)  {
 
 /*Header - Mobile*/
 .desktop {
@@ -243,23 +198,29 @@ footer{
 
 /*Banner - Mobile*/
 .banner{
+  display:flex;
+  justify-content:flex-start;
   flex-direction: column;
   padding: 0;
   margin: 0 auto;
+
+
 }
 .banner-img {
   width: 100%;
   height: auto;
-  display: block;
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
 }
 .banner-content{
   max-width: 100%;
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
 }
 
-.btn-banner{
-  margin-bottom:32px;
-  align-self: center;
-}
+
 
 
 /*Course Mobile*/

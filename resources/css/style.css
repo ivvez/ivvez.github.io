@@ -209,15 +209,9 @@ footer{
 .banner-img {
   width: 100%;
   height: auto;
-  display:flex;
-  justify-content:flex-start;
-  flex-direction: column;
 }
 .banner-content{
   max-width: 100%;
-  display:flex;
-  justify-content:flex-start;
-  flex-direction: column;
 }
 
 
